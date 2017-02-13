@@ -1,0 +1,8 @@
+.main {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .main .elements img {
+    width: 30%; }
+
+/*# sourceMappingURL=estilo.css.map */

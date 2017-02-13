@@ -1,0 +1,27 @@
+@mixin degrade-fundo(){
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0d0d1e+0,262637+0,0d0d1e+100 */
+  background: #0d0d1e; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover,  #0d0d1e 0%, #262637 0%, #0d0d1e 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover,  #0d0d1e 0%,#262637 0%,#0d0d1e 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center,  #0d0d1e 0%,#262637 0%,#0d0d1e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0d1e', endColorstr='#0d0d1e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+.main{
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .elements{
+    img{
+      width: 30%;
+    }
+  }
+
+
+}
+
+.background{
+
+}
